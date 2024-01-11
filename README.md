@@ -1,7 +1,7 @@
 # Primer Parcial
 ## Programación Web II
 
-### Antes de Empezar:
+### Antes de Empezar::
 
 1. Realiza un **Fork** de este repositorio:
 ![Repositorio del Primer Parcial](https://live.staticflickr.com/65535/53455858302_3cf16ce09a_b.jpg)

@@ -1,0 +1,114 @@
+body {
+    background: #0C151D;
+    font-family: 'Nunito';
+    margin: 0;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.texto .Titulo {
+    color: #F1F2F4; 
+}
+
+.texto .sub-titulo {
+    color: #A3ABB2; 
+}
+
+.contenedor-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+}
+
+.foto {
+    margin-right: 20px;
+}
+.foto img {
+    width: 215px; 
+    height: 215px;
+    border-radius: 50%; 
+    border: 4px solid #FFFFFF;
+}
+.texto {
+    flex: 1; 
+}
+
+.iconos {
+    display: flex;
+}
+.sub-encabezado{
+    color: #A3ABB2;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.descarga {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+
+.botones {
+    color:#A3ABB2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #171F26;
+    border: 1px solid #171f26;
+    ;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.botones:hover {
+    background-color: #FFE071;
+    border-color: #171f26;
+}
+
+.botones p {
+    margin-right: 10px;
+}
+
+.imagenes-a-poner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+.cajita {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.l1,
+.l2 {
+    padding: 10px; 
+    color: #A3ABB2;
+    padding-left: 200px;
+    padding-right: 200px;
+}
